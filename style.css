@@ -1,0 +1,85 @@
+/*Configurações Globais*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Corpo da Página*/
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    width: 100%;
+    height: 100%;
+}
+
+/*Container/Main*/
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 150px;
+    padding-bottom: 15px;
+}
+
+/*Imagem usada*/
+
+img {
+    border-radius: 50%;
+    margin: 25px;
+    margin-left: 185px;
+    width: 120px;
+}
+
+/*Configurações Pontuais*/
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+}
+
+h3 {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-weight: 500;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: 25px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+li {
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    transition: 1s;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
